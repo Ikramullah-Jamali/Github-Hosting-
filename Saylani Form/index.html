@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=600px, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <center>
+        <img src="./saylani.jpg" alt="Saylani Logo" width="700px">
+
+        <h1>Saylani Online Academy</h1>
+
+        <table cellspacing="5" style="background-color: rgb(99, 157, 210);">
+            <form action="submit.html">
+
+                <tr>
+                    <th colspan="2">
+
+                        <b>
+                            <h2>Student Registration Form</h2>
+                        </b>
+
+                    </th>
+
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" placeholder="Name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Father Name:</td>
+                    <td><input type="text" placeholder="Father Name" name="fathername" required></td>
+                </tr>
+                <tr>
+                    <td>Email Id:</td>
+                    <td><input type="email" placeholder="Email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><Input type="password" placeholder="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number:</td>
+                    <td><input type="number" placeholder="Number" name="contact" min="11" required></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><Textarea placeholder="Address"></Textarea></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Language</td>
+                    <td>
+                        <input type="checkbox" name="checkbox" id="urdu"> Urdu
+                        <input type="checkbox" name="checkbox" id="eng"> English
+                        <input type="checkbox" name="checkbox" id="arabic"> Arabic
+                        <input type="checkbox" name="checkbox" id="chinese"> Chinese
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date" name="dob" required></td>
+                </tr>
+                
+                
+                <tr>
+                    <td>City:</td>
+                    <td>
+                        <select name="city" required>
+                            <option value="">Select Your City</option>
+                            <option value="karachi">Karachi</option>
+                            <option value="lahore">Hyderabad</option>
+                            <option value="islamabad">Islamabad</option>
+                            <option value="quetta">Quetta</option>
+                            <option value="peshawar">Lahore</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Hobbies :</td>
+                    <td>
+                        <select name="hobbies" id="" required>
+                            <option value="">Select your Hobby</option>
+                            <option value="Cricket">Cricket</option>
+                            <option value="FootBall">FootBall</option>
+                            <option value="Hockey">Hockey</option>
+                            <option value="Tennis">Tennis</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Picture Upload:</td>
+                    <td><input type="file" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Submit</button>
+
+                    </td>
+
+                </tr>
+            </form>
+        </table>
+    </center>
+</body>
+
+</html>
